@@ -17,7 +17,7 @@ class String
   def count_sentences
     #need to evaluate self. split on any punctuation and then count_sentences
     sentences = self.split(".")
-    sentences.reject(&blank?)
+    sentences.reject(&empty?)
     sentences.count
   end
 end
