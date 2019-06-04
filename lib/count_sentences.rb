@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    #need to evaluate self. split on any punctuation and then count_sentences
 
   end
 end
