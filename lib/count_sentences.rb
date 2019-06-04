@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     #need to evaluate self. split on any punctuation and then count_sentences
-    self.count_sentences
+    sentences = self.split(".")
   end
 end
